@@ -7,11 +7,16 @@ public class Apskritimas {
     public Apskritimas(double spindulys) {
         this.spindulys = spindulys;
     }
+
     public double skersmuo(){
     return spindulys/2 ;
+
+
     }
+
     public double plotas(){
-        return skersmuo()*skersmuo()*Math.PI;
+        return spindulys*spindulys*Math.PI;
+
     }
     public double perimetras(){
         return 2*Math.PI*spindulys;
